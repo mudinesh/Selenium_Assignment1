@@ -6,7 +6,7 @@ import org.testng.Assert;
 
 public class ProjectOne {
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.gecko.driver","https://github.com/SeleniumHQ/selenium.wiki.git");
+		System.setProperty("webdriver.gecko.driver","D:\\\\selenium/geckodriver.exe");
 		WebDriver driver = new FirefoxDriver(); 
 		driver.manage().window().maximize();
 		driver.get("http://iamneo.ai");
